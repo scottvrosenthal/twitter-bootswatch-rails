@@ -1,5 +1,5 @@
 # Twitter Bootswatch Rails gem
-  
+
   - Integrates Twitter Bootstrap CSS & Font Awesome toolkit into the Rails 3.1+ Asset Pipeline
   - Easy control over which javascript and less modules are loaded by default. Not every app needs a carousel
   - Simple default less files for custom application themes ("[theme_name]/variables.less" and "[theme_name]/bootswatch.less")
@@ -151,7 +151,13 @@ The import generator pulls directly from the [bootswatch.com](http://bootswatch.
 
 In your rails controllers just tell it to use the cyborg layout.
 
-    layout: 'cyborg'
+
+```ruby
+class ApplicationController < ActionController::Base
+  # ...
+  layout 'cyborg'
+end
+```
 
 You can also create an admin namespaced theme and import the cyborg bootswatch.less and variable.less files:
 
