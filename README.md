@@ -1,8 +1,8 @@
-# Twitter Bootswatch Rails gem
+# Bootswatch Rails gem
 
 [![Build Status](https://www.travis-ci.org/scottvrosenthal/twitter-bootswatch-rails.png?branch=master)](https://www.travis-ci.org/scottvrosenthal/twitter-bootswatch-rails)
 
-  - Integrates Twitter Bootstrap 3.0+ into the Rails Asset Pipeline
+  - Integrates Bootstrap 3.0+ into the Rails Asset Pipeline
   - Easy optimization and control over which javascript and less modules are loaded 
     * *Not every app needs a carousel*
     * *easily optimize to just what your template needs*
@@ -12,10 +12,10 @@
   - Apply different custom themes or bootswatches from a site like [bootswatch.com](http://bootswatch.com/)
   - Create several themed swatches for your project with theme_names
     * e.g. an admin *(backend)* theme and a storefront *(frontend)* theme
-  - Quickly build custom Twitter Bootstrap templates using live refresh to see your changes
+  - Quickly build custom Bootstrap templates using live refresh to see your changes
 
-## Includes Twitter Bootstrap for Rails Asset Pipeline
-[Twitter Bootstrap](http://getbootstrap.com/) is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
+## Includes Bootstrap for Rails Asset Pipeline
+[Bootstrap](http://getbootstrap.com/) is a toolkit designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
 
 ## Demo
 
@@ -25,7 +25,7 @@ The [demo](https://github.com/scottvrosenthal/twitter-bootswatch-rails-demo) wil
 
 ## Install
 
-Include the [Twitter Bootswatch Rails gem](http://rubygems.org/gems/twitter-bootswatch-rails) in Gemfile to install it from [RubyGems.org](https://rubygems.org):
+Include the [Bootswatch Rails gem](http://rubygems.org/gems/twitter-bootswatch-rails) in Gemfile to install it from [RubyGems.org](https://rubygems.org):
 
 ```ruby
 
@@ -47,7 +47,7 @@ Run bundle from command line
 
 ## Installing to App (using Generators)
 
-You can run the following generators to get started with Twitter Bootstrap.
+You can run the following generators to get started with Bootstrap.
 
 
 If you don't provide a [theme_name] the value defaults to **bootswatch** and adds directives to your application.css and application.js files.
@@ -66,7 +66,7 @@ Example:
 
 ***
 
-Layout (generates a basic Twitter Bootstrap compatible layout)
+Layout (generates a basic Bootstrap compatible layout)
 
   - [haml-rails](https://github.com/indirect/haml-rails) gem supported
   - [slim-rails](https://github.com/slim-template/slim-rails) gem supported
@@ -85,7 +85,7 @@ Example:
 
 ***
 
-Themed (generates Twitter Bootstrap compatible scaffold views.)
+Themed (generates Bootstrap compatible scaffold views.)
 
   - [simple_form](https://github.com/plataformatec/simple_form) gem supported
   - [haml-rails](https://github.com/indirect/haml-rails) gem supported
@@ -154,9 +154,9 @@ You have to require `[theme_name]/loader.css.less` in your application.css
 
 `[theme_name]/loader.css.less` allows you to easily comment out less modules you don't need in your application.
 
-`[theme_name]/variables.less` customize Twitter Bootstrap `variables.less` defaults in this file.
+`[theme_name]/variables.less` customize Bootstrap `variables.less` defaults in this file.
 
-`[theme_name]/bootswatch.css.less` customize the style of Twitter Bootstrap base css and component style here.
+`[theme_name]/bootswatch.css.less` customize the style of Bootstrap base css and component style here.
 
 Check out some of the swatches at [bootswatch.com](http://bootswatch.com/)
 
@@ -213,7 +213,7 @@ You have to require the javascript script file `[theme_name]/loader.js` & `[them
 
 ```
 
-`[theme_name]/bootswatch.js` allows you to add more customization & overrides to twitter bootstrap javascript components.
+`[theme_name]/bootswatch.js` allows you to add more customization & overrides to bootstrap javascript components.
 
 ***
 
@@ -264,13 +264,13 @@ config.app_generators.stylesheet_engine :less
 
 ***
 
-### List of Twitter Bootstrap plugins
+### List of Bootstrap plugins
 
   - [the-big-badass-list-of-twitter-bootstrap-resources](http://bootstraphero.com/the-big-badass-list-of-twitter-bootstrap-resources)
 
 ***
 
-### Upgrading Twitter Bootstrap from 2.x to 3.0
+### Upgrading Bootstrap from 2.x to 3.0
 
 - [migration](http://getbootstrap.com/getting-started/#migration)
 
