@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
   s.required_rubygems_version = '>= 1.8.11'
   s.license     = 'MIT'
-  s.licenses    = ['MIT', 'GPL-2']
+  s.licenses    = ['MIT', 'GPL-2.0']
   s.authors     = ["Scott V. Rosenthal"]
   s.email       = ["sr7575@gmail.com"]
   s.homepage    = "https://github.com/scottvrosenthal/twitter-bootswatch-rails"
