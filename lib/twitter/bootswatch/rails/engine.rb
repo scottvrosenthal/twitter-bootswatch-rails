@@ -6,8 +6,8 @@ module Twitter
       class Engine < ::Rails::Engine
 
         initializer 'twitter-bootswatch-rails.setup',
-          :after => 'less-rails.after.load_config_initializers', 
-          :group => :all do |app|
+          after: 'less-rails.after.load_config_initializers', 
+          group:  :all do |app|
 
             paths = %W[
               #{File.join(config.root, 'vendor', 'toolkit')}
