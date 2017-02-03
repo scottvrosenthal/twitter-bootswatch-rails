@@ -5,10 +5,10 @@ module Bootswatch
   module Generators
     class ThemedGenerator < ::Rails::Generators::Base
       source_root File.expand_path('../templates', __FILE__)
-      argument :controller_path,    :type => :string
-      argument :model_name,         :type => :string, :required => false
-      argument :layout,             :type => :string, :default => "application",
-                                    :banner => "Specify application layout"
+      argument :controller_path,    type: :string
+      argument :model_name,         type: :string, required: false
+      argument :layout,             type: :string, default: "application",
+                                    banner: "Specify application layout"
 
       def initialize(args, *options)
         super(args, *options)
